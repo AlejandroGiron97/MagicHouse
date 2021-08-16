@@ -1,0 +1,60 @@
+#content
+{
+    margin-top: 30px;
+    border: 1px solid #eee;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 0px 2px 7px #ccc;
+    
+}
+#headerapp
+{
+    background: #E03137;
+    color: white;
+    margin: 0px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+}
+
+#headerapp h1
+{
+    display: block;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#navapp
+{
+    padding: 0px;
+    margin: 0px;
+    background: rgba(224, 49, 55, 0.67);
+}
+#navapp ul
+{
+    margin: 0px;
+    list-style: none;
+    padding-left: 20px;
+}
+#navapp ul li
+{
+    float: left;
+    margin-right: 20px;
+}
+
+#navapp ul li a
+{
+    display: block;
+    color: white;
+    height: 30px;
+    line-height: 29px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 30ms;
+}
+#nav ul li a:hover
+{
+    text-decoration: none;
+    background: #E03137;
+}
