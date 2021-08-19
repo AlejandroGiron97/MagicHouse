@@ -17,13 +17,16 @@ import { MatSliderModule } from '@angular/material/slider';
 import { HomeComponent } from './components/home/home.component';
 import { MatHeaderRow, MatHeaderRowDef, MatIcon, MatPaginator, MatRow, MatRowDef, MatSort, MatTabHeader, MatTable, MatTableDataSource } from '@angular/material';
 import { MaterialModule } from './material.module';
+import { FilterPipe } from './pipes/filters.pipe';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HouseComponent,
     ListStudentsComponent,
-    HomeComponent
+    HomeComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
